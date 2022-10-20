@@ -8,3 +8,6 @@ git reset /*volta o codigo de um ponto específico*/
 git checkout [nome_arquivo] /*  descarta mudanças em algum ponto específico*/
 git branch /*lista as branches existentes/criadas*/
 git checkout branch /*altera/muda de branch*/
+git pull /*puxa as atualizações no repo remoto*/
+git push /* enviar as suas alterações/mudanças para o repo remoto*/
+git fetch /*recebe branches remotas que não estão mapeadas*/
