@@ -1,1 +1,10 @@
 comandos
+git init /*inicia o versionamento no git*/
+git clone [caminho_repo_remoto]
+git status /*verifica mudanças e/ou modificações nos arquivos*/
+git add . /*adiciona as mudanças ao versionamento*/
+git commit -m "mensagem" /*salva as mudanças*/
+git reset /*volta o codigo de um ponto específico*/
+git checkout [nome_arquivo] /*  descarta mudanças em algum ponto específico*/
+git branch /*lista as branches existentes/criadas*/
+git checkout branch /*altera/muda de branch*/
