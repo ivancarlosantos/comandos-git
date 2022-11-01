@@ -1,2 +1,2 @@
 # comandos-git
-arquivo para comandos de leitura rápida do git
+Arquivo de leitura rápida para comandos GIT
