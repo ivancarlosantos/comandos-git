@@ -1,26 +1,24 @@
 comandos
 git init /*inicia o versionamento no git*/
-git clone [caminho_repo_remoto] /*clona o repo remoto em maquina local*/
-git status /*verifica mudanças e/ou modificações nos arquivos*/
-git add . /*adiciona as mudanças ao versionamento*/
-git commit -m "mensagem" /*salva as mudanças*/
-git reset /*volta o codigo de um ponto específico*/
-git checkout [nome_arquivo] /*  descarta mudanças em algum ponto específico*/
+git clone [caminho_repo_remoto] /*clona o repositório remoto em sua máquina local*/
+git status /*verifica as mudanças e/ou modificações nos arquivos em sua máquina*/
+git add . /*adiciona as mudanças ao versionamento/stagging*/
+git commit -m "mensagem" /*salva as mudanças para realização da mesma ao repositório remoto*/
+git reset HEAD /*volta o codigo de um ponto específico*/
+git checkout [nome_arquivo] /*descarta mudanças em algum ponto específico*/
 git branch /*lista as branches existentes/criadas*/
 git branch -v /*lista as branches com os comentários/mensagens*/
-git checkout branch [branch_name] /*altera/muda de branch*/
-git pull /*puxa as atualizações no repo remoto*/
-git pull -u origin [branch_name] /*puxa as atualizações no repo remoto de branch específica*/
-git push /* enviar as suas alterações/mudanças para o repo remoto*/
+git checkout branch [branch_name] /*altera e/ou muda de branch*/
+git pull /*puxa as atualizações do repositóro remoto para o local*/
+git pull -u origin [branch_name] /*puxa as atualizações do repositóro remoto de uma branch específica*/
+git push /*enviar as suas alterações/mudanças para o repositório remoto*/
 git fetch /*recebe branches remotas que não estão mapeadas*/
-git remote -v
-git push -u origin [branch_name]
-git reset HEAD [file_name]
-git shortlog
+git remote -v /*mostra os caminhos de commit do repositorio remoto*/
+git push -u origin [branch_name] /*envia as alterações para o repositório remoto (como github/gitlab)*/
+git shortlog /*mostra o histórico das alterações/commits realizados*/
 git show [hash_number]
-git diff
-git merge [branch_name] --no-ff
-git branch -d [branch_name]
-git checkout -b [branch_name][branch_mirror]
-git checkout [branch_name]
-git push --delete origin [branch_name]
+git diff /*mostra a diferença entre arquivos*/
+git merge [branch_name] --no-ff /une modificações entre branch*/
+git branch -d [branch_name] /*deleta a branch local*/
+git checkout -b [branch_name][branch_mirror] /*cria uma nova branch */
+git push --delete origin [branch_name] /*deleta uma branch no repositório remoto*/
