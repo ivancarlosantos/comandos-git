@@ -19,7 +19,7 @@ git shortlog /*mostra o histórico das alterações/commits realizados referente
 git log /*mostra histórico dos commits como autor do envio, data e mensagem*/
 git show [hash_number] /*mostra histórico das mudanças/alterações conforme a linha do tempo de commits*/
 git diff /*mostra a diferença entre arquivos*/
-git merge [branch_name] --no-ff /*une as modificações entre branchs*/
+git merge [branch_name] --no-ff /*une as modificações entre branches*/
 git branch -d [branch_name] /*deleta a branch local*/
 git checkout -b [branch_name][branch_mirror] /*cria uma nova branch */
 git push --delete origin [branch_name] /*deleta uma branch no repositório remoto*/
